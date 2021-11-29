@@ -1,0 +1,40 @@
+body{
+  background-color: pink;
+  text-align: center;
+}
+
+.SNS{
+  margin-top: 15px;
+}
+
+.SNS a{
+  margin: 0 20px;
+  text-align: center;
+}
+
+.サイト{
+  text-align: left;
+  display: inline-block;
+}
+
+#aisaka{
+  height: 300px;
+  width: 300px;
+}
+
+h1{
+  font-size: 28px;
+}
+
+h6{
+  font-size: 13px;
+}
+
+ul .目次{
+  margin-bottom:  10px;
+}
+
+li{
+  font-size: 13px;
+  font-weight: bold;
+}
