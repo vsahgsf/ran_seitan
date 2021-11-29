@@ -27,7 +27,8 @@ h1{
 }
 
 h6{
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 ul .目次{
@@ -35,6 +36,12 @@ ul .目次{
 }
 
 li{
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
+}
+
+h4{
+  text-decoration: underline ;
+  text-decoration-color: red;
+
 }
