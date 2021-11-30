@@ -1,14 +1,6 @@
+/*共通*/
 body{
   background-color: pink;
-  text-align: center;
-}
-
-.SNS{
-  margin-top: 15px;
-}
-
-.SNS a{
-  margin: 0 20px;
   text-align: center;
 }
 
@@ -17,9 +9,44 @@ body{
   display: inline-block;
 }
 
-#aisaka{
-  height: 300px;
-  width: 300px;
+h4{
+  text-decoration: underline ;
+  text-decoration-color: red;
+}
+
+h6 {
+  font-weight: normal;
+}
+
+.SNS{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.SNS a{
+  margin: 0 20px;
+  text-align: center;
+}
+
+li{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.生誕委員募集 h6{
+  margin-bottom: 20px;
+}
+
+
+
+
+/*スマホ用*/
+ @media screen and (max-width: 479px) {
+
+.aisaka{
+  height: 405px;
+  width: 405px;
+  margin: 0 auto;
 }
 
 h1{
@@ -28,7 +55,6 @@ h1{
 
 h6{
   font-size: 15px;
-  font-weight: normal;
 }
 
 ul .目次{
@@ -37,12 +63,51 @@ ul .目次{
 
 li{
   font-size: 15px;
-  font-weight: bold;
-  margin-bottom: 10px;
+}
+
+.iinbosyuu{
+  height: 270px;
+  width: 405px;
+}
+
+
+}
+
+/*PC*/
+@media screen and (min-width: 480px) {
+h6{
+  font-size: 18px;
+}
+
+li{
+  font-size: 18px;
 }
 
 h4{
-  text-decoration: underline ;
-  text-decoration-color: red;
+  font-size: 23px;
+}
+
+.本人紹介 {
+  display: inline-flex;
+}
+
+.iinbosyuu{
+  height: 540px;
+  width: 810px;
+}
+
+
+.aisaka{
+  height:400px;
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.説明{
+  height: 350px;
+  width: 350px;
+}
+
 
 }
