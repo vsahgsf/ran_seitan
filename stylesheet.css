@@ -70,6 +70,11 @@ li{
   width: 405px;
 }
 
+.kanpabosyuu{
+  height: 270px;
+  width: 405px;
+}
+
 
 }
 
@@ -92,6 +97,11 @@ h4{
 }
 
 .iinbosyuu{
+  height: 540px;
+  width: 810px;
+}
+
+.kanpabosyuu{
   height: 540px;
   width: 810px;
 }
