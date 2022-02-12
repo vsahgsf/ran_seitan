@@ -28,7 +28,7 @@ h6 {
   text-align: center;
 }
 
-li{
+li.目次{
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -41,6 +41,12 @@ span{
   font-weight: bold;
   color: red;
 }
+
+ul.caution{
+  padding-left: 20px;
+}
+
+
 
 
 
@@ -62,11 +68,11 @@ h6{
   font-size: 15px;
 }
 
-ul .目次{
+ul.目次{
   margin-bottom:  10px;
 }
 
-li{
+li.目次{
   font-size: 15px;
 }
 
@@ -89,7 +95,7 @@ h6{
   font-size: 18px;
 }
 
-li{
+li.目次{
   font-size: 18px;
 }
 
